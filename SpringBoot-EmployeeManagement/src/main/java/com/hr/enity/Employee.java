@@ -18,7 +18,7 @@ import org.hibernate.annotations.Type;
 @Entity
 @NamedQuery(name="Employee.findByEmpNo",
                 query="SELECT e FROM Employee e WHERE empNo = :empNo")
-@Table(name="employees")
+@Table(name="employees_hr")
 public class Employee {
 	
 	@Id
